@@ -1,0 +1,265 @@
+@charset "UTF-8";
+
+html {
+	font-family: sans-serif;
+}
+
+
+/* DESKTOP */
+@media screen and (min-width: 768px) {
+
+
+
+	
+	#mapa ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+	#mapa a {
+		color: inherit;
+		line-height: 1.5;
+	}
+
+	#mapa h2 {
+		margin: 0;
+		font-weight: normal;
+		padding-left: 0.5em;
+	}
+	
+	#mapa > ul > li {
+		float: left;
+		width: 22%;
+		margin-right: 2%;
+		height: 100%;
+	}
+	
+	#mapa ul ul {
+		border-left: 1px solid #ffffff;
+		padding-left: 0.5em;
+	}
+	
+	#mapa li:first-child ul {
+		border-left: 1px solid transparent;
+	}
+	
+	#mapa {
+		overflow: auto; /* clearfix */
+		zoom: 1; /* ie6-ie7 */
+		height: 300px;
+	}
+	
+	
+	#menu {
+	/*	position: absolute;*/
+		top: 0;
+		left: 0;
+		right: 0;
+		
+		margin-top: 0.5em;
+		border: 1px solid #ccc;
+		border-radius: 6px;
+		
+		color: #fff;
+		
+		background-color: #a33;
+		background-image: linear-gradient( to top, rgba(0,0,0,0.3), 
+			rgba(255,255,255,0) );
+	}
+	
+	#menu header, 
+	#menu > ul {
+		display: inline-block;
+		vertical-align: top;
+	}
+	
+	#menu ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		font-size: 0;
+	}
+	
+	#menu > ul > li { /* só o primeiro ul e só os li's filhos direto dele */
+		display: inline-block; /* torna o primeiro menu horizontal */
+	}
+	
+	#menu h1,
+	#menu > ul > li > a {
+		display: block;
+	
+		margin: 0; /* só para h1 */
+		padding: 1em;
+		
+		font-size: 16px; /* H1 reduz, A aumenta */
+		font-size: 1rem;
+		
+		border-right: 1px solid #fff;
+		
+		color: inherit;
+		text-decoration: none; /* só a */
+	}
+	
+	#menu li {
+		position: relative; /* contexto de posicionamento */
+	}
+	
+	#menu li ul { /* somente sub-menus */
+		position: absolute;
+		width: 200px;
+		top: 100%;
+		left: 0;
+		
+		z-index: 1; /* contexto de empilhamento */
+		
+		box-shadow: 0 0 10px #333;
+		background-color: white;
+	}
+	
+	#menu li li { /* esconde a li no lugar do ul por causa das "setas" */
+		display: none;
+	}
+
+	#menu li:hover > ul > li {
+		display: block;
+	}
+
+	#menu li li a {
+		display: block;
+	
+		padding: 0.5em 0;
+		
+		font-size: 16px;
+		font-size: 1rem;
+		
+		border-bottom: 1px solid #ccc;
+		
+		color: #000;
+		text-decoration: none;
+		text-align: center;
+	}
+	#menu li li a:hover {
+		background-color: rgba(0,0,0,0.3);
+	}
+	#menu li li:last-child > a {
+		border: none;
+	}
+	#menu ul ul ul { /* muda a posicao a partir do 3o. nivel */
+		top: 0;
+		left: 100%;
+	}
+	#menu ul ul ul:before {
+        content: '\203A'; /* código unicode do aspas simples */
+        
+        position: absolute;
+        
+        top: 0;
+        left: -0.6em;
+        
+        padding: 0 0em;
+        
+        color: #555555;
+
+        font-size: 29px;
+        font-size: 1.8rem;
+        font-weight: bold;
+	}
+	#menu > ul > li > ul:before {
+        content: '\25BE'; /* código unicode do aspas simples */
+        
+        position: absolute;
+        
+        top: -1.2em;
+        left: 1em;
+        
+        padding: 0 0em;
+        
+        color: #fff;
+
+        font-size: 16px;
+        font-size: 1rem;
+        font-weight: bold;
+	}
+}
+
+
+
+/* MOBILE */
+@media screen and ( max-width:767px ) {
+
+	
+	#menu {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 20%;
+		bottom: 0;
+		
+		z-index: -1; /* atrás do contexto de empilhamento */
+		
+		background-color: #333;
+		color: #fff;
+		
+		overflow-x: hidden;
+		overflow-y: auto; /* poe a rolagem quando a lista é grande */
+	}
+	
+	#menu ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+	#menu ul ul {
+		background-color: rgba(255,255,255,0.1);
+	}
+	
+	#menu a {
+		display: block;
+		padding: 0.5em;
+		color: inherit;
+		text-decoration: none;
+		
+		border-top: 1px solid rgba( 255,255,255,0.3 );
+		border-bottom: 1px solid rgba( 0,0,0,0.3 );
+	}
+/** /	
+	#menu li li a {
+		padding-left: 1.5em;
+	}
+
+	#menu li li li a {
+		padding-left: 2.5em;
+	}
+
+	#menu li li li li a {
+		padding-left: 3.5em;
+	}
+/**/
+	#menu > ul {
+		border-bottom: 1px solid rgba( 255,255,255,0.3 );
+	}
+	
+	#menu h1  {
+		margin: 0;
+		padding: 0.5rem;
+		border-bottom: 1px solid rgba( 0,0,0,0.3 );
+	}
+	
+	body {
+		overflow: hidden;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
