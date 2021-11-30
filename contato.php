@@ -114,7 +114,7 @@ function checa_formulario(email){
         <div class="container">
             <div class="grid_5">            
           
-              <form onsubmit="return checa_formulario(this)" action="envia.php" method="post" enctype="multipart/form-data" 
+              <form onsubmit="return checa_formulario(this)" action="phpmailer/envia.php" method="post" enctype="multipart/form-data" 
               name="email">
                     <div class="grid_10">
                       <label class="desc" id="nome" for="nome">Nome</label><br>
@@ -155,8 +155,8 @@ function checa_formulario(email){
          <div class="grid_5">   <br><br>
 <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d2581.328418460903!2d-48.466216843680975!3d-22.86899537600819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x0%3A0x5b21f72f3015d457!2sMarcenaria+Miqueas!3m2!1d-22.8691323!2d-48.465902799999995!4m5!1s0x94c720b971837e15%3A0x5b21f72f3015d457!2sMarcenaria+Miqueas+-+Av.+Dep.+Dante+Delmanto%2C+1895%2C+Botucatu+-+SP%2C+18608-393!3m2!1d-22.8691323!2d-48.465902799999995!5e0!3m2!1spt-BR!2sbr!4v1439044462433" width="450" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>    <ul class="contato2">
                         <li><img src="images/pin-icon.png" alt="Endereco"> Av. Dep. Dante Delmanto, 1895 | Botucatu - SP</li>
-                        <li><img src="images/email-icon.png" alt="Email"> contato@marcenariamiqueas.com.br</li>
-                        <li><img src="images/phone-icon.png" alt="Telefone"> 14 3815.1602</li>
+                        <li><img src="images/email-icon.png" alt="Email"> <a href="mailto:contato@miqueasplanejados.com.br" target="_blank" rel="noopener" rel="noreferrer" >contato@miqueasplanejados.com.br</a></li>
+                        <li><img src="images/phone-icon.png" alt="Telefone"> <a href="tel:1438151602">14 3815.1602</a></li>
             </ul><br>
         </div>
            

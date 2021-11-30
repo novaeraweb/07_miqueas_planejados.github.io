@@ -1,56 +1,55 @@
 <?php
-// Inclui o arquivo class.phpmailer.php localizado na pasta phpmailer
-require_once("class.phpmailer.php");
+ $nome 	    = $_POST['nome'];
+ $email 	= $_POST['email'];
+ $telefone 	= $_POST['telefone'];
+ $assunto   = $_POST['assunto'];
+ $mensagem  = $_POST['mensagem'];
+ $arquivo   = $_FILES["arquivo"];
+ 
+ $corpoMSG = "<strong>Nome:</strong> $nome<br><strong>Email:</strong> $email<br><strong>Telefone:</strong> $telefone<br><br><strong>Mensagem:</strong> $mensagem";
+ // chamada da classe		
+ require_once('class.phpmailer.php');
+ require_once('class.smtp.php');
 
-// Inicia a classe PHPMailer
-$mail = new PHPMailer();
+ // instanciando a classe
+ $mail   = new PHPMailer();
 
-// Define os dados do servidor e tipo de conexão
+ // Define os dados do servidor e tipo de conexão
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 $mail->IsSMTP(); // Define que a mensagem será SMTP
-$mail->Host = "smtp.novaeraweb.com.br"; // Endereço do servidor SMTP
-$mail->SMTPAuth = true; // Usa autenticação SMTP? (opcional)
-$mail->Username = 'contato@novaeraweb.com.br'; // Usuário do servidor SMTP
-$mail->Password = 'llrr2012'; // Senha do servidor SMTP
+$mail->Host = "smtp.umbler.com"; // Endereço do servidor SMTP (caso queira utilizar a autenticação, utilize o host smtp.seudomínio.com.br)
+$mail->Port       = 587; 
+$mail->SMTPAuth = true; // Usar autenticação SMTP (obrigatório para smtp.seudomínio.com.br)
+$mail->SMTPOptions = array(
+    'ssl' => array(
+        'verify_peer' => false,
+        'verify_peer_name' => false,
+        'allow_self_signed' => true
+    )
+);
+$mail->Username = 'site@miqueasplanejados.com.br'; // Usuário do servidor SMTP
+$mail->Password = 'miq*010203'; // Senha do servidor SMTP
 
-// Define o remetente
-// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-$mail->From = "contato@novaeraweb.com.br"; // Seu e-mail
-$mail->FromName = "Joãozinho"; // Seu nome
+ $address = "site@miqueasplanejados.com.br";
+ // email do remetente
+ $mail->SetFrom($address, "Contato do site");
+ // email do destinatario
 
-// Define os destinatário(s)
-// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-$mail->AddAddress('contato@novaeraweb.com.br', 'Fulano da Silva');
+ $mail->AddAddress($address, "destinatario");
+ $mail->AddBCC("site@novaeraweb.com.br", "destinatario");
+ $mail->AddBCC("contato@novaeraweb.com.br", "destinatario");
+ // assunto da mensagem
+ // assunto da mensagem
+ $mail->Subject = $assunto;
+ // corpo da mensagem
+ $mail->MsgHTML($corpoMSG);
+ // anexar arquivo
+ $mail->AddAttachment($arquivo['tmp_name'], $arquivo['name']  );
+ 
+ if(!$mail->Send()) {
+   echo "Erro: " . $mail->ErrorInfo;
+  } else {
+   header("Location:http://www.marcenariamiqueas.com.br/cadastro-enviado.html");
+  }
 
-//$mail->AddCC('ciclano@site.net', 'Ciclano'); // Copia
-//$mail->AddBCC('fulano@dominio.com.br', 'Fulano da Silva'); // Cópia Oculta
-
-// Define os dados técnicos da Mensagem
-// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-$mail->IsHTML(true); // Define que o e-mail será enviado como HTML
-//$mail->CharSet = 'iso-8859-1'; // Charset da mensagem (opcional)
-
-// Define a mensagem (Texto e Assunto)
-// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-$mail->Subject  = "Mensagem Teste"; // Assunto da mensagem
-$mail->Body = "Este é o corpo da mensagem de teste, em <b>HTML</b>!  :)";
-$mail->AltBody = "Este é o corpo da mensagem de teste, em Texto Plano! \r\n :)";
-
-// Define os anexos (opcional)
-// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-//$mail->AddAttachment("c:/temp/documento.pdf", "novo_nome.pdf");  // Insere um anexo
-
-// Envia o e-mail
-$enviado = $mail->Send();
-
-// Limpa os destinatários e os anexos
-$mail->ClearAllRecipients();
-$mail->ClearAttachments();
-
-// Exibe uma mensagem de resultado
-if ($enviado) {
-  echo "E-mail enviado com sucesso!";
-} else {
-  echo "Não foi possível enviar o e-mail.";
-  echo "<b>Informações do erro:</b> " . $mail->ErrorInfo;
-}
+?>
