@@ -5,11 +5,38 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
-        <meta charset="utf-8">
+       <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Marcenaria Miqueas - Cozinhas personalizadas | Botucatu/SP</title>
-        <meta name="description" content="Conheça os Móveis Planejados para Cozinha da Marcenaria Miqueas, atendemos Botucatu e região.">
+        <title>Marcenaria Miqueas - Apartamento Decorado | Botucatu/SP</title>
+        <meta name="description" content="Conheça nosso projeto de apartamento Decorado | Marcenaria Miquea em Botucatu e região.">
         <meta name="viewport" content="width=device-width">
+
+
+        <meta name="keywords" content="moveis planejados area de lazer, moveis personalizados, ambientes personalizdos, decoracao, marcenaria de moveis, marcenaria miqueas, botucatu, marcenaria botucatu" />
+        <link rel="author" href="http://www.novaeraweb.com.br"/>
+        <meta name="robots" content="follow,index">
+        <meta name= "googlebot" content="follow,index">
+        <link rel="shortcut icon" href="/favicon.ico" />
+
+        <meta name="resource-type" content="document" />
+        <meta name="revisit-after" content="1" />
+        <meta name="classification" content="Móveis Planejados" />
+        <meta name="distribution" content="Global" />
+        <meta name="rating" content="General" />
+        <meta name="language" content="pt-br" />
+        <meta name="doc-class" content="Completed" />
+        <meta name="doc-rights" content="Public" />
+
+        <meta property="og:locale" content="pt_BR">
+        <meta property="og:title" content="Marcenaria Miqueas - Apartamento Decorado | Botucatu/SP" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://www.miqueasmarcenaria.com.br/ambientes/apartamento-decorado.html" />
+        <meta property="og:image" content="http://www.miqueasmarcenaria.com.br/logo.jpg" />
+        <meta property="og:image:type" content="image/jpeg">
+        <meta property="og:image:width" content="800"> 
+        <meta property="og:image:height" content="600"> 
+        <meta property="og:description" content="Marcenaria Miqueas é uma empresa que atua no setor de Móveis Planejados e Personalizados em Botucatu e região." />
+        <meta property="og:site_name" content="Marcenaria Miqueas - Móveis Planejados" />
 
        <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/normalize.css">
@@ -76,52 +103,7 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
-    <header>
-            <div class="container">
-                <div class="grid_4">
-                    
-                        <!--[if lte IE 8 ]-->
-                          <a href="../index.html"><img class="logo" src="../images/logo-marcenaria-miqueas3.png" alt="Logo"></a>
-                        <!--![endif]-->
-                    
-                </div><!--grid3-->             
-                <div class="grid_7">
-                    <nav>
-                        <div class="rmm" id="menu-topo">
-                            <ul>
-                                <li><a href='../index.html'>Home</a></li>
-                                <li><a href='../marcenaria-miqueas.html'>Empresa</a></li>
-                                <li><a href='../ambientes-personalizados.html'>Ambientes</a> </li>
-                                <li><a href='../contato.html'>Contato</a></li> 
-                            </ul>
-                        </div>
-                    </nav>
-                </div><!--grid7-->
-            </div><!--container-->  
-    </header>
-        <div class="menu2" >
-            <div class="container">
-                <div class="grid_3">
-                    
-                        <!--[if lte IE 8 ]-->
-                          <img src="../images/logo-marcenaria-miqueas2.png" alt="Logo">
-                        <!--![endif]-->
-                    
-                </div><!--grid3-->             
-                <div class="grid_7">
-                    <nav>
-                        <div class="rmm" id="responsive">
-                            <ul>
-                               <span class="nophone"> <li><a href='index.html'>Home</a></li></span>
-                                <li><a href='../marcenaria-miqueas.html'>Empresa</a></li>
-                                <li><a href='../ambientes-personalizados.html'>Ambientes</a> </li>
-                                <li><a href='../contato.php'>Contato</a></li> 
-                            </ul>
-                        </div>
-                    </nav>
-                </div><!--grid7-->
-            </div><!--container-->  
-        </div><!--menu2-->  
+        <?php require_once "header.php"?>
     <section >
             <div class="ambientes-personalizados" > 
                 <div id="topico">   
@@ -133,20 +115,19 @@
                                  <div class="grid_7 btn3" style="text-align:center;">  
                                  <a href='../contato.php'><button>Solicite uma visita !</button> </a> 
                                 </div>  
-                         </div>
-                            
+                         </div>  
                     </div>
                 </div> 
                 <div class="container"> 
-                <h1 class="margem1"> Cozinhas</h1>                  
+                <h1 class="margem1"> Apartamento Decorado</h1>                  
                 <ul class="lb-album2">
                         <li>
                             <a href="#image-1">
-                                <img src="cozinhas/tumbs/cozinha-1.jpg" alt="Conheça nosso Show Room">
+                                <img src="decorado/tumbs/decorado-1.jpg" alt="Conheça nosso Show Room">
                                 <span> <img src="../images/lupa.png" alt="lupa"> </span>
                             </a>
                             <div class="lb-overlay" id="image-1">
-                                <img src="cozinhas/full/cozinha-1.jpg" alt="cozinhas Planejadas" />
+                                <img src="decorado/full/decorado-1.jpg" alt="decorado Planejadas" />
                                 <div>
                                     <a href="#image-8" class="lb-prev">Prev</a>
                                     <a href="#image-2" class="lb-next">Next</a>
@@ -156,11 +137,11 @@
                         </li>
                         <li>
                             <a href="#image-2">
-                                <img src="cozinhas/tumbs/cozinha-2.jpg" alt="Ambientes sob medida">
+                                <img src="decorado/tumbs/decorado-2.jpg" alt="Ambientes sob medida">
                                 <span><img src="../images/lupa.png" alt="lupa"></span>
                             </a>
                             <div class="lb-overlay" id="image-2">
-                                <img src="cozinhas/full/cozinha-2.jpg" alt="image02" />
+                                <img src="decorado/full/decorado-2.jpg" alt="image02" />
                                 <div>                           
                                     <a href="#image-1" class="lb-prev">Prev</a>
                                     <a href="#image-3" class="lb-next">Next</a>
@@ -170,11 +151,11 @@
                         </li>
                         <li>
                             <a href="#image-3">
-                                <img src="cozinhas/tumbs/cozinha-3.jpg" alt="Armarios para cozinha">
+                                <img src="decorado/tumbs/decorado-3.jpg" alt="Armarios para decorado">
                                 <span><img src="../images/lupa.png" alt="lupa"></span>
                             </a>
                             <div class="lb-overlay" id="image-3">
-                                <img src="cozinhas/full/cozinha-3.jpg" alt="image03" />
+                                <img src="decorado/full/decorado-3.jpg" alt="image03" />
                                 <div>                           
                                     <a href="#image-2" class="lb-prev">Prev</a>
                                     <a href="#image-4" class="lb-next">Next</a>
@@ -185,11 +166,11 @@
 
                         <li>
                             <a href="#image-4">
-                                <img src="cozinhas/tumbs/cozinha-4.jpg" alt="Móveis para cozinha">
+                                <img src="decorado/tumbs/decorado-4.jpg" alt="Móveis para decorado">
                                 <span><img src="../images/lupa.png" alt="lupa"></span>
                             </a>
                             <div class="lb-overlay" id="image-4">
-                                <img src="cozinhas/full/cozinha-4.jpg" alt="image03" />
+                                <img src="decorado/full/decorado-4.jpg" alt="image03" />
                                 <div>                           
                                     <a href="#image-3" class="lb-prev">Prev</a>
                                     <a href="#image-5" class="lb-next">Next</a>
@@ -201,11 +182,11 @@
 
                         <li>
                             <a href="#image-5">
-                                <img src="cozinhas/tumbs/cozinha-5.jpg" alt="cozinhas Sob Medida">
+                                <img src="decorado/tumbs/decorado-5.jpg" alt="decorado Sob Medida">
                                 <span><img src="../images/lupa.png" alt="lupa"></span>
                             </a>
                             <div class="lb-overlay" id="image-5">
-                                <img src="cozinhas/full/cozinha-5.jpg" alt="image03" />
+                                <img src="decorado/full/decorado-5.jpg" alt="Decoracao" />
                                 <div>                           
                                     <a href="#image-4" class="lb-prev">Prev</a>
                                     <a href="#image-6" class="lb-next">Next</a>
@@ -216,11 +197,11 @@
 
                         <li>
                             <a href="#image-6">
-                                <img src="cozinhas/tumbs/cozinha-6.jpg" alt="cozinhas Planejadas">
+                                <img src="decorado/tumbs/decorado-6.jpg" alt="decorado Planejadas">
                                 <span><img src="../images/lupa.png" alt="lupa"></span>
                             </a>
                             <div class="lb-overlay" id="image-6">
-                                <img src="cozinhas/full/cozinha-6.jpg" alt="image03" />
+                                <img src="decorado/full/decorado-6.jpg" alt="Nosso decorado" />
                                 <div>                           
                                     <a href="#image-5" class="lb-prev">Prev</a>
                                     <a href="#image-7" class="lb-next">Next</a>
@@ -231,11 +212,11 @@
 
                         <li>
                             <a href="#image-7">
-                                <img src="cozinhas/tumbs/cozinha-7.jpg" alt="cozinha 02">
+                                <img src="decorado/tumbs/decorado-7.jpg" alt="decorado personalizado">
                                 <span><img src="../images/lupa.png" alt="lupa"></span>
                             </a>
                             <div class="lb-overlay" id="image-7">
-                                <img src="cozinhas/full/cozinha-7.jpg" alt="image03" />
+                                <img src="decorado/full/decorado-7.jpg" alt="image03" />
                                 <div>                           
                                     <a href="#image-6" class="lb-prev">Prev</a>
                                     <a href="#image-8" class="lb-next">Next</a>
@@ -245,11 +226,11 @@
                         </li>
                         <li>
                             <a href="#image-8">
-                                <img src="cozinhas/tumbs/cozinha-8.jpg" alt="cozinha dos sonhos">
+                                <img src="decorado/tumbs/decorado-8.jpg" alt="Apartamento decorado dos sonhos">
                                 <span><img src="../images/lupa.png" alt="lupa"></span>
                             </a>
                             <div class="lb-overlay" id="image-8">
-                                <img src="cozinhas/full/cozinha-8.jpg" alt="cozinha dos sonhos" />
+                                <img src="decorado/full/decorado-8.jpg" alt="decorado dos sonhos" />
                                 <div>                           
                                     <a href="#image-7" class="lb-prev">Prev</a>
                                     <a href="#image-1" class="lb-next">Next</a>
@@ -259,38 +240,39 @@
                         </li>
                         <li>
                             <a href="#image-9">
-                                <img src="cozinhas/tumbs/cozinha-9.jpg" alt="cozinha dos sonhos">
+                                <img src="decorado/tumbs/decorado-9.jpg" alt="Apartamento decorado dos sonhos">
                                 <span><img src="../images/lupa.png" alt="lupa"></span>
                             </a>
                             <div class="lb-overlay" id="image-9">
-                                <img src="cozinhas/full/cozinha-9.jpg" alt="cozinha dos sonhos" />
+                                <img src="decorado/full/decorado-9.jpg" alt="decorado dos sonhos" />
                                 <div>                           
                                     <a href="#image-8" class="lb-prev">Prev</a>
                                     <a href="#image-10" class="lb-next">Next</a>
                                 </div>
                                 <a href="#page" class="lb-close">x fechar</a>
                             </div>
-                        </li>
+                        </li>  
                         <li>
                             <a href="#image-10">
-                                <img src="cozinhas/tumbs/cozinha-10.jpg" alt="cozinha dos sonhos">
+                                <img src="decorado/tumbs/decorado-10.jpg" alt="Apartamento decorado dos sonhos">
                                 <span><img src="../images/lupa.png" alt="lupa"></span>
                             </a>
                             <div class="lb-overlay" id="image-10">
-                                <img src="cozinhas/full/cozinha-10.jpg" alt="cozinha dos sonhos" />
+                                <img src="decorado/full/decorado-10.jpg" alt="decorado dos sonhos" />
                                 <div>                           
                                     <a href="#image-9" class="lb-prev">Prev</a>
                                     <a href="#image-11" class="lb-next">Next</a>
                                 </div>
                                 <a href="#page" class="lb-close">x fechar</a>
                             </div>
-                        </li>                        <li>
+                        </li>  
+                        <li>
                             <a href="#image-11">
-                                <img src="cozinhas/tumbs/cozinha-11.jpg" alt="cozinha dos sonhos">
+                                <img src="decorado/tumbs/decorado-11.jpg" alt="Apartamento decorado dos sonhos">
                                 <span><img src="../images/lupa.png" alt="lupa"></span>
                             </a>
                             <div class="lb-overlay" id="image-11">
-                                <img src="cozinhas/full/cozinha-11.jpg" alt="cozinha dos sonhos" />
+                                <img src="decorado/full/decorado-11.jpg" alt="decorado dos sonhos" />
                                 <div>                           
                                     <a href="#image-10" class="lb-prev">Prev</a>
                                     <a href="#image-12" class="lb-next">Next</a>
@@ -300,113 +282,30 @@
                         </li>
                         <li>
                             <a href="#image-12">
-                                <img src="cozinhas/tumbs/cozinha-12.jpg" alt="cozinha dos sonhos">
+                                <img src="decorado/tumbs/decorado-12.jpg" alt="Apartamento decorado dos sonhos">
                                 <span><img src="../images/lupa.png" alt="lupa"></span>
                             </a>
                             <div class="lb-overlay" id="image-12">
-                                <img src="cozinhas/full/cozinha-12.jpg" alt="cozinha dos sonhos" />
+                                <img src="decorado/full/decorado-12.jpg" alt="decorado dos sonhos" />
                                 <div>                           
                                     <a href="#image-11" class="lb-prev">Prev</a>
-                                    <a href="#image-13" class="lb-next">Next</a>
-                                </div>
-                                <a href="#page" class="lb-close">x fechar</a>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="#image-13">
-                                <img src="cozinhas/tumbs/cozinha-13.jpg" alt="cozinha dos sonhos">
-                                <span><img src="../images/lupa.png" alt="lupa"></span>
-                            </a>
-                            <div class="lb-overlay" id="image-13">
-                                <img src="cozinhas/full/cozinha-13.jpg" alt="cozinha dos sonhos" />
-                                <div>                           
-                                    <a href="#image-12" class="lb-prev">Prev</a>
-                                    <a href="#image-14" class="lb-next">Next</a>
-                                </div>
-                                <a href="#page" class="lb-close">x fechar</a>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="#image-14">
-                                <img src="cozinhas/tumbs/cozinha-14.jpg" alt="cozinha dos sonhos">
-                                <span><img src="../images/lupa.png" alt="lupa"></span>
-                            </a>
-                            <div class="lb-overlay" id="image-14">
-                                <img src="cozinhas/full/cozinha-14.jpg" alt="cozinha dos sonhos" />
-                                <div>                           
-                                    <a href="#image-13" class="lb-prev">Prev</a>
-                                    <a href="#image-15" class="lb-next">Next</a>
-                                </div>
-                                <a href="#page" class="lb-close">x fechar</a>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="#image-15">
-                                <img src="cozinhas/tumbs/cozinha-15.jpg" alt="cozinha dos sonhos">
-                                <span><img src="../images/lupa.png" alt="lupa"></span>
-                            </a>
-                            <div class="lb-overlay" id="image-15">
-                                <img src="cozinhas/full/cozinha-15.jpg" alt="cozinha dos sonhos" />
-                                <div>                           
-                                    <a href="#image-14" class="lb-prev">Prev</a>
-                                    <a href="#image-16" class="lb-next">Next</a>
-                                </div>
-                                <a href="#page" class="lb-close">x fechar</a>
-                            </div>
-                        </li> 
-                        <li>
-                            <a href="#image-16">
-                                <img src="cozinhas/tumbs/cozinha-16.jpg" alt="cozinha dos sonhos">
-                                <span><img src="../images/lupa.png" alt="lupa"></span>
-                            </a>
-                            <div class="lb-overlay" id="image-16">
-                                <img src="cozinhas/full/cozinha-16.jpg" alt="cozinha dos sonhos" />
-                                <div>                           
-                                    <a href="#image-15" class="lb-prev">Prev</a>
                                     <a href="#image-1" class="lb-next">Next</a>
                                 </div>
                                 <a href="#page" class="lb-close">x fechar</a>
                             </div>
-                        </li>               
+                        </li>          
                         </ul>
                 </section>
                 </div></div> <!--nossaempresa-->         
-        <footer>
-             <div class="container">   
-                <div class="grid_5">
-                    <h3>Ambientes Personalizados</h3>
-                    <ul class="rectangle-list">
-                        <li><a href='areas-de-lazer.html'>Áreas de lazer</a></li>
-                        <li><a href='dormitorios.html'>Dormitórios</a></li>
-                        <li><a href='cozinhas.html'>Cozinhas</a></li>
-                        <li><a href='salas.html'>Salas</a></li>
-                        <li><a href='escritorios.html'>Escritórios</a></li>
-                        <li><a href='banheiros.html'>Banheiros</a></li>
-
-                    </ul>
-                </div>
-
-                <div class="highlight nophone">
-                    <div class="grid_5">
-                   <div class="fb-like-box" data-href="https://www.facebook.com/marcenariamiqueas" data-width="450" data-height="500" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="true" data-show-border="false"></div>
-                    </div><!--grid5-->
-                </div><!--no-phone-->
-                <div class="grid_8" id="atendimento">
-                    <h3>Atendimento</h3>
-                    <ul class="contato">
-                        <li>Av. Dep. Dante Delmanto, 1895<br>Vila Paulista | Botucatu - SP  <span class="mapa">[ mapa ] </span></li>
-                        <li>14 3815.1602</li>
-                        <li>contato@miqueasmarcenaria.com.br</li>
-                    </ul>
-                </div>
-            </div><!--container-->
-        </footer>            <div class="autor" >
+                <?php require_once "footer.php"?>
+                            <div class="autor" >
                 <p class="insetType">desenvolvimento<a href="http://www.novaeraweb.com.br" target="_blank"><img class="heart pulse2" src="../images/nova-era-web.png" alt="Logo Nova Era Web"></a></p></div>
              </div>
     
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
+<script>
+(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;

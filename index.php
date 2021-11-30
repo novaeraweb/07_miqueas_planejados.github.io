@@ -90,55 +90,8 @@
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-        <header>
-            <div class="container">
-                <div class="grid_4">
-                    
-                        <!--[if lte IE 8 ]-->
-                          <a href="index.html"><img class="logo" src="images/logo-marcenaria-miqueas3.png" alt="Logo"></a>
-                        <!--![endif]-->
-                    
-                </div><!--grid3-->             
-                <div class="grid_7">
-                    <nav>
-                        <div class="rmm" >
-                            <ul>
-                                <li><a href='index.html'>Home</a></li>
-                                <li><a href='marcenaria-miqueas.html'>Empresa</a></li>
-                                <li><a href='ambientes-personalizados.html'>Ambientes</a> </li>
-                                <li><a href='contato.php'>Contato</a></li> 
-                            </ul>
-                        </div>
-                    </nav>
-                </div><!--grid7-->
-            </div><!--container-->  
-        </header> 
+        <?php require_once "header.php"?>
          
-        <div class="menu2" >
-                  
-     
-            <div class="container">
-                <div class="grid_3">
-                    
-                        <!--[if lte IE 8 ]-->
-                          <img src="images/logo-marcenaria-miqueas2.png" alt="Logo">
-                        <!--![endif]-->
-                    
-                </div><!--grid3-->             
-                <div class="grid_7">
-                    <nav>
-                        <div class="rmm" id="responsive">
-                            <ul>
-                               <span class="nophone"> <li><a href='index.html'>Home</a></li></span>
-                                <li><a href='marcenaria-miqueas.html'>Empresa</a></li>
-                                <li><a href='ambientes-personalizados.html'>Ambientes</a> </li>
-                                <li><a href='contato.php'>Contato</a></li> 
-                            </ul>
-                        </div>
-                    </nav>
-                </div><!--grid7-->
-            </div><!--container-->  
-        </div><!--menu2-->  
         <div class="highlight nophone">
 
 
@@ -227,36 +180,7 @@
             </article> 
         </div>
 
-        <footer>
-            <div class="container">   
-                <div class="grid_5 ambiente">
-                    <h3>Ambientes Personalizados</h3>
-                    <ul class="rectangle-list">
-                        <li><a href='ambientes/areas-de-lazer.html'>Áreas de lazer</a></li>
-                        <li><a href='ambientes/dormitorios.html'>Dormitorios</a></li>
-                        <li><a href='ambientes/cozinhas.html'>Cozinhas</a></li>
-                        <li><a href='ambientes/salas.html'>Salas</a></li>
-                        <li><a href='ambientes/escritorios.html'>Escritórios</a></li>
-                        <li><a href='ambientes/banheiros.html'>Banheiros</a></li>
-
-                    </ul>
-                </div>
-
-                <div class="highlight nophone">
-                    <div class="grid_5">
-                        <div class="fb-like-box" data-href="https://www.facebook.com/marcenariamiqueas" data-width="450" data-height="500" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="true" data-show-border="false"></div>
-                    </div><!--grid5-->
-                </div><!--no-phone-->
-                <div class="grid_8" id="atendimento">
-                    <h3>Atendimento</h3>
-                    <ul class="contato">
-                        <li>Av. Dep. Dante Delmanto, 1895<br>Vila Paulista | Botucatu - SP  <span class="mapa"><a href="https://www.google.com.br/maps/dir/''/marcenariamiqueas/@-22.8691553,-48.5000779,13z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x94c720b971837e15:0x5b21f72f3015d457!2m2!1d-48.465745!2d-22.869159" target="_blank"> [ mapa ]</a> </span></li>
-                        <li>14 3815.1602</li>
-                        <li>contato@marcenariamiqueas.com.br</li>
-                    </ul>
-                </div>
-            </div><!--container-->
-        </footer> 
+        <?php require_once "footer.php"?>
         <div class="autor" >
                 <p class="insetType">desenvolvimento<a href="http://www.novaeraweb.com.br" target="_blank"><img class="heart pulse2" src="images/nova-era-web.png" alt="Logo Nova Era Web" ></a></p>
         </div>

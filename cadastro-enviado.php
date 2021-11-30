@@ -8,19 +8,19 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Marcenaria Miqueas - Móveis sob medida | Botucatu/SP</title>
-        <meta name="description" content="Ambientes Personalizados - Marcenaria Miqueas - Solicite um orçamento sem compromisso. (14)3815.1602">
+        <meta name="description" content="Você vai aprender a criar sites com layouts e conteúdos flexíveis e adaptáveis a uma ampla variedade de resoluções de tela e dispositivos.">
         <meta name="viewport" content="width=device-width">
-        <link rel=“canonical” href=”https://www.marcenariamiqueas.com.br/ambientes-planejados.html”/>
+
        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:600italic,400,600' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,600' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/responsivemobilemenu.css" type="text/css"/>
 
-        <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
         <script type="text/javascript" src="js/responsivemobilemenu.js"></script>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <script src="js/responsive-nav.js"></script>
@@ -29,24 +29,13 @@
         <link rel="stylesheet" type="text/css" href="css/demo.css" />
         <link rel="stylesheet" type="text/css" href="css/style2.css" />
         <script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
         <script src="js/slippry.min.js"></script>
         <link rel="stylesheet" href="css/slippry.css">
        
         <noscript>
             <link rel="stylesheet" type="text/css" href="css/nojs.css" />
         </noscript>
-                <script type="text/javascript">
-            $(function () {
-                $(window).scroll(function () {
-                    if ($(this).scrollTop() > 600) {
-                        $('.menu2').fadeIn();
-                    } else {
-                        $('.menu2').fadeOut();
-                    }
-                });
-            });
-        </script>
 <style>
     
         body > div {
@@ -76,53 +65,8 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
-    <header>
-            <div class="container">
-                <div class="grid_4">
-                    
-                        <!--[if lte IE 8 ]-->
-                          <a href="index.html"><img class="logo" src="images/logo-marcenaria-miqueas3.png" alt="Logo"></a>
-                        <!--![endif]-->
-                    
-                </div><!--grid3-->             
-                <div class="grid_7">
-                    <nav>
-                        <div class="rmm" id="menu-topo">
-                            <ul>
-                                <li><a href='index.html'>Home</a></li>
-                                <li><a href='marcenaria-miqueas.html'>Empresa</a></li>
-                                <li><a href='ambientes-personalizados.html'>Ambientes</a> </li>
-                                <li><a href='contato.php'>Contato</a></li> 
-                            </ul>
-                        </div>
-                    </nav>
-                </div><!--grid7-->
-            </div><!--container-->  
-    </header> 
-        <div class="menu2" >
-            <div class="container">
-                <div class="grid_3">
-                    
-                        <!--[if lte IE 8 ]-->
-                          <img src="images/logo-marcenaria-miqueas2.png" alt="Logo">
-                        <!--![endif]-->
-                    
-                </div><!--grid3-->             
-                <div class="grid_7">
-                    <nav>
-                        <div class="rmm" id="responsive">
-                            <ul>
-                               <span class="nophone"> <li><a href='index.html'>Home</a></li></span>
-                                <li><a href='marcenaria-miqueas.html'>Empresa</a></li>
-                                <li><a href='ambientes-personalizados.html'>Ambientes</a> </li>
-                                <li><a href='contato.php'>Contato</a></li> 
-                            </ul>
-                        </div>
-                    </nav>
-                </div><!--grid7-->
-            </div><!--container-->  
-        </div><!--menu2-->  
-    <div class="ambientes" >
+        <?php require_once "header.php"?>  
+    <div class="cadastro-enviado" >
 
             <article > 
                 <div id="topico">   
@@ -130,26 +74,30 @@
                 
                     <div id="descritivo"> 
                         <div class="container">
-                            <div class="grid_4 titulo3">  
-                               <h1> Ambientes personalizados</h1>
+                            <div class="grid_4">  
+                               <h1> A excelência que você merece ! </h1>
                             </div>
-                             <div class="grid_7 btn3" style="text-align:center;">  
-                             <a href='contato.php'><button>Solicite uma visita !</button>  </a>
+                             <div class="grid_7" style="text-align:center;">  
+                              
                             </div>  
                             </div>
-                         
+   
                      </div>
                 </div>         
-            </article>
+            </article><br>
+            <p>Seu contato foi enviado com sucesso !</p>
+            <p>Retornaremos o mais breve.</p><br>
+            
+            <hr><h1>Aproveite e confira alguns de nossos projetos</h1>
             <div class="container"><br><br>
                 <!-- THIRD EXAMPLE -->
                 <div class="view view-third">
                     <img src="images/tumb-dormitorios.jpg" />
                     <div class="mask">
-                        <h2>Dormitórios/Closets</h2>
+                        <h2>Dormitórios</h2>
                         <p>Realizamos o projeto do quarto dos seus sonhos.</p>
                         <a href="ambientes/dormitorios.html" class="info">Veja +</a>
-                    </div> <h3>Dormitórios/Closets</h3>
+                    </div> <h3>Dormitórios</h3>
                 </div>
                <div class="view view-third">
                     <img src="images/tumb-escritorio.jpg" />
@@ -168,12 +116,12 @@
                     </div> <h3>Salas</h3>
                 </div>
                 <div class="view view-third">
-                    <img src="images/tumb-banheiro.jpg" />
+                    <img src="images/tumb-home-theater.jpg" />
                     <div class="mask">
-                        <h2>Banheiros</h2>
+                        <h2>Home Theathers</h2>
                         <p>Móveis sob medida.</p>
-                        <a href="ambientes/banheiros.html" class="info">Veja +</a>
-                    </div><h3>Banheiros</h3>
+                        <a href="ambientes/home-theaters.html" class="info">Veja +</a>
+                    </div><h3>Home Theathers</h3>
                 </div>
                 <div class="view view-third">
                     <img src="images/tumb-cozinhas.jpg" />
@@ -184,11 +132,11 @@
                     </div> <h3>Cozinhas</h3>
                 </div>
                 <div class="view view-third">
-                    <img src="images/tumb-area-lazer.jpg" />
+                    <img src="images/tumb-home-office.jpg" />
                     <div class="mask">
                         <h2>Áreas de lazer</h2>
                         <p>Area de Lazer do seus sonhos.</p>
-                        <a href="ambientes/areas-de-lazer.html" class="info">Veja +</a>
+                        <a href="ambientes/area-de-lazer.html" class="info">Veja +</a>
                     </div> <h3>Áreas de lazer</h3>
                 </div>
            
@@ -204,35 +152,7 @@
             
             </div><!-- container -->
     </div><!--ambientes-->
-        <footer>
-             <div class="container">   
-                <div class="grid_5">
-                    <h3>Ambientes Personalizados</h3>
-                    <ul class="rectangle-list">
-                        <li><a href='ambientes/areas-de-lazer.html'>Áreas de lazer</a></li>
-                        <li><a href='ambientes/dormitorios.html'>Dormitórios</a></li>
-                        <li><a href='ambientes/cozinhas.html'>Cozinhas</a></li>
-                        <li><a href='ambientes/salas.html'>Salas</a></li>
-                        <li><a href='ambientes/escritorios.html'>Escritórios</a></li>
-                        <li><a href='ambientes/banheiros.html'>Banheiros</a></li>
-                    </ul>
-                </div>
-
-                <div class="highlight nophone">
-                    <div class="grid_5">
-                   <div class="fb-like-box" data-href="https://www.facebook.com/marcenariamiqueas" data-width="450" data-height="500" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="true" data-show-border="false"></div>
-                    </div><!--grid5-->
-                </div><!--no-phone-->
-                <div class="grid_8" id="atendimento">
-                    <h3>Atendimento</h3>
-                    <ul class="contato">
-                        <li>Av. Dep. Dante Delmanto, 1895<br>Vila Paulista | Botucatu - SP  <span class="mapa"><a href="https://www.google.com.br/maps/dir/''/marcenariamiqueas/@-22.8691553,-48.5000779,13z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x94c720b971837e15:0x5b21f72f3015d457!2m2!1d-48.465745!2d-22.869159" target="_blank"> [ mapa ]</a> </span></li>
-                        <li>14 3815.1602</li>
-                        <li>contato@marcenariamiqueas.com.br</li>
-                    </ul>
-                </div>
-            </div><!--container-->
-        </footer> 
+    <?php require_once "footer.php"?>  
         <div class="autor" >
                 <p class="insetType">desenvolvimento<a href="http://www.novaeraweb.com.br" target="_blank"><img class="heart pulse2" src="images/nova-era-web.png" alt="Logo Nova Era Web" ></a></p></div>
         </div>
@@ -245,13 +165,20 @@
   js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&appId=284745924885800&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+
+
+
         <script src="js/jquery.fittext.js"></script>
         <script src="js/jquery.fitvids.js"></script>
         <script type="text/javascript">
+            $("h1").fitText(0.62);
+            $("h2").fitText(1.7);
+
             $(document).ready(function(){
                 // Target your .container, .wrapper, .post, etc.
                 $("#video").fitVids();
               });
+
             var navigation = responsiveNav("#nav", {customToggle: "#menu"});
         </script>
         <script src="js/plugins.js"></script>

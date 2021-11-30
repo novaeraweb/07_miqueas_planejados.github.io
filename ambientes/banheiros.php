@@ -7,7 +7,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Marcenaria Miqueas - Escritorios personalizados | Botucatu/SP</title>
+        <title>Marcenaria Miqueas - Ambientes personalizados | Botucatu/SP</title>
         <meta name="description" content="Marcenaria Miqueas é uma empresa que atua no setor de Móveis Planejados e Personalizados em Botucatu e região.">
         <meta name="viewport" content="width=device-width">
 
@@ -33,9 +33,6 @@
         <noscript>
             <link rel="stylesheet" type="text/css" href="../css/nojs.css" />
         </noscript>
-
-        <link rel="stylesheet" type="text/css" href="../css/demo-light-box.css" />
-        <link rel="stylesheet" type="text/css" href="../css/style3.css" />
                 <script type="text/javascript">
             $(function () {
                 $(window).scroll(function () {
@@ -47,6 +44,9 @@
                 });
             });
         </script>
+        <link rel="stylesheet" type="text/css" href="../css/demo-light-box.css" />
+        <link rel="stylesheet" type="text/css" href="../css/style3.css" />
+
 <style>
     
         body > div {
@@ -76,77 +76,32 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
-    <header>
-            <div class="container">
-                <div class="grid_4">
-                    
-                        <!--[if lte IE 8 ]-->
-                          <a href="../index.html"><img class="logo" src="../images/logo-marcenaria-miqueas3.png" alt="Logo"></a>
-                        <!--![endif]-->
-                    
-                </div><!--grid3-->             
-                <div class="grid_7">
-                    <nav>
-                        <div class="rmm" id="menu-topo">
-                            <ul>
-                                <li><a href='../index.html'>Home</a></li>
-                                <li><a href='../marcenaria-miqueas.html'>Empresa</a></li>
-                                <li><a href='../ambientes-personalizados.html'>Ambientes</a> </li>
-                                <li><a href='../contato.php'>Contato</a></li> 
-                            </ul>
-                        </div>
-                    </nav>
-                </div><!--grid7-->
-            </div><!--container-->  
-    </header>
-        <div class="menu2" >
-            <div class="container">
-                <div class="grid_3">
-                    
-                        <!--[if lte IE 8 ]-->
-                          <img src="../images/logo-marcenaria-miqueas2.png" alt="Logo">
-                        <!--![endif]-->
-                    
-                </div><!--grid3-->             
-                <div class="grid_7">
-                    <nav>
-                        <div class="rmm" id="responsive">
-                            <ul>
-                               <span class="nophone"> <li><a href='index.html'>Home</a></li></span>
-                                <li><a href='../marcenaria-miqueas.html'>Empresa</a></li>
-                                <li><a href='../ambientes-personalizados.html'>Ambientes</a> </li>
-                                <li><a href='../contato.php'>Contato</a></li> 
-                            </ul>
-                        </div>
-                    </nav>
-                </div><!--grid7-->
-            </div><!--container-->  
-        </div><!--menu2-->  
+        <?php require_once "header.php"?>
     <section >
             <div class="ambientes-personalizados" > 
                 <div id="topico">   
                     <div id="descritivo"> 
                         <div class="container">
                                 <div class="grid_4 titulo3">  
-                                   <a href="../ambientes-personalizados.html"> <h1>< Ambientes Personalizados</h1></a> 
+                                    <a href="../ambientes-personalizados.php"><h1>< Ambientes Personalizados </h1></a>
                                 </div>
                                  <div class="grid_7 btn3" style="text-align:center;">  
-                                 <button>Solicite uma visita !</button>  
+                                 <a href='../contato.php'><button>Solicite uma visita !</button> </a>
                                 </div>  
                          </div>
-                         
+                              
                     </div>
                 </div> 
-                <div class="container"> 
-                <h1 class="margem1"> Escritórios</h1>                    
+                <div class="container">
+                <h1 class="margem1"> Banheiros</h1>                     
                 <ul class="lb-album2">
                         <li>
                             <a href="#image-1">
-                                <img src="escritorios/tumbs/escritorio-1.jpg" alt="Conheça nosso Show Room">
+                                <img src="banheiros/tumbs/banheiro-1.jpg" alt="Conheça nosso Show Room">
                                 <span> <img src="../images/lupa.png" alt="lupa"> </span>
                             </a>
                             <div class="lb-overlay" id="image-1">
-                                <img src="escritorios/full/escritorio-1.jpg" alt="escritorios Planejadas" />
+                                <img src="banheiros/full/banheiro-1.jpg" alt="Moveis para banheiros " />
                                 <div>
                                     <a href="#image-8" class="lb-prev">Prev</a>
                                     <a href="#image-2" class="lb-next">Next</a>
@@ -156,11 +111,11 @@
                         </li>
                         <li>
                             <a href="#image-2">
-                                <img src="escritorios/tumbs/escritorio-2.jpg" alt="Ambientes sob medida">
+                                <img src="banheiros/tumbs/banheiro-2.jpg" alt="Ambientes sob medida">
                                 <span><img src="../images/lupa.png" alt="lupa"></span>
                             </a>
                             <div class="lb-overlay" id="image-2">
-                                <img src="escritorios/full/escritorio-2.jpg" alt="image02" />
+                                <img src="banheiros/full/banheiro-2.jpg" alt="Home" />
                                 <div>                           
                                     <a href="#image-1" class="lb-prev">Prev</a>
                                     <a href="#image-3" class="lb-next">Next</a>
@@ -170,11 +125,11 @@
                         </li>
                         <li>
                             <a href="#image-3">
-                                <img src="escritorios/tumbs/escritorio-3.jpg" alt="Armarios para escritorio">
+                                <img src="banheiros/tumbs/banheiro-3.jpg" alt="Armarios para banheiro">
                                 <span><img src="../images/lupa.png" alt="lupa"></span>
                             </a>
                             <div class="lb-overlay" id="image-3">
-                                <img src="escritorios/full/escritorio-3.jpg" alt="image03" />
+                                <img src="banheiros/full/banheiro-3.jpg" alt="image03" />
                                 <div>                           
                                     <a href="#image-2" class="lb-prev">Prev</a>
                                     <a href="#image-4" class="lb-next">Next</a>
@@ -185,11 +140,11 @@
 
                         <li>
                             <a href="#image-4">
-                                <img src="escritorios/tumbs/escritorio-4.jpg" alt="Móveis para escritorio">
+                                <img src="banheiros/tumbs/banheiro-4.jpg" alt="Móveis para banheiros">
                                 <span><img src="../images/lupa.png" alt="lupa"></span>
                             </a>
                             <div class="lb-overlay" id="image-4">
-                                <img src="escritorios/full/escritorio-4.jpg" alt="Moveis planejados para escritorio" />
+                                <img src="banheiros/full/banheiro-4.jpg" alt="banheiro" />
                                 <div>                           
                                     <a href="#image-3" class="lb-prev">Prev</a>
                                     <a href="#image-5" class="lb-next">Next</a>
@@ -201,11 +156,11 @@
 
                         <li>
                             <a href="#image-5">
-                                <img src="escritorios/tumbs/escritorio-5.jpg" alt="escritorios Sob Medida">
+                                <img src="banheiros/tumbs/banheiro-5.jpg" alt="banheiros Sob Medida">
                                 <span><img src="../images/lupa.png" alt="lupa"></span>
                             </a>
                             <div class="lb-overlay" id="image-5">
-                                <img src="escritorios/full/escritorio-5.jpg" alt="image03" />
+                                <img src="banheiros/full/banheiro-5.jpg" alt="image03" />
                                 <div>                           
                                     <a href="#image-4" class="lb-prev">Prev</a>
                                     <a href="#image-6" class="lb-next">Next</a>
@@ -216,11 +171,11 @@
 
                         <li>
                             <a href="#image-6">
-                                <img src="escritorios/tumbs/escritorio-6.jpg" alt="escritorios Planejadas">
+                                <img src="banheiros/tumbs/banheiro-6.jpg" alt="banheiros Planejadas">
                                 <span><img src="../images/lupa.png" alt="lupa"></span>
                             </a>
                             <div class="lb-overlay" id="image-6">
-                                <img src="escritorios/full/escritorio-6.jpg" alt="image03" />
+                                <img src="banheiros/full/banheiro-6.jpg" alt="image03" />
                                 <div>                           
                                     <a href="#image-5" class="lb-prev">Prev</a>
                                     <a href="#image-7" class="lb-next">Next</a>
@@ -231,11 +186,11 @@
 
                         <li>
                             <a href="#image-7">
-                                <img src="escritorios/tumbs/escritorio-7.jpg" alt="escritorio 02">
+                                <img src="banheiros/tumbs/banheiro-7.jpg" alt="banheiros 02">
                                 <span><img src="../images/lupa.png" alt="lupa"></span>
                             </a>
                             <div class="lb-overlay" id="image-7">
-                                <img src="escritorios/full/escritorio-7.jpg" alt="image03" />
+                                <img src="banheiros/full/banheiro-7.jpg" alt="Banheiros planejados" />
                                 <div>                           
                                     <a href="#image-6" class="lb-prev">Prev</a>
                                     <a href="#image-8" class="lb-next">Next</a>
@@ -245,163 +200,133 @@
                         </li>
                         <li>
                             <a href="#image-8">
-                                <img src="escritorios/tumbs/escritorio-8.jpg" alt="escritorio dos sonhos">
+                                <img src="banheiros/tumbs/banheiro-8.jpg" alt="banheiros dos sonhos">
                                 <span><img src="../images/lupa.png" alt="lupa"></span>
                             </a>
                             <div class="lb-overlay" id="image-8">
-                                <img src="escritorios/full/escritorio-8.jpg" alt="escritorio dos sonhos" />
+                                <img src="banheiros/full/banheiro-8.jpg" alt="banheiros dos sonhos" />
                                 <div>                           
                                     <a href="#image-7" class="lb-prev">Prev</a>
                                     <a href="#image-1" class="lb-next">Next</a>
                                 </div>
                                 <a href="#page" class="lb-close">x fechar</a>
                             </div>
-                        </li> 
-                                                <li>
+                        </li>                        <li>
                             <a href="#image-9">
-                                <img src="escritorios/tumbs/escritorio-9.jpg" alt="escritorio dos sonhos">
+                                <img src="banheiros/tumbs/banheiro-9.jpg" alt="banheiros dos sonhos">
                                 <span><img src="../images/lupa.png" alt="lupa"></span>
                             </a>
                             <div class="lb-overlay" id="image-9">
-                                <img src="escritorios/full/escritorio-9.jpg" alt="escritorio dos sonhos" />
+                                <img src="banheiros/full/banheiro-9.jpg" alt="banheiros dos sonhos" />
                                 <div>                           
                                     <a href="#image-8" class="lb-prev">Prev</a>
                                     <a href="#image-10" class="lb-next">Next</a>
                                 </div>
                                 <a href="#page" class="lb-close">x fechar</a>
                             </div>
-                        </li> 
-                         <li>
+                        </li>                         <li>
                             <a href="#image-10">
-                                <img src="escritorios/tumbs/escritorio-10.jpg" alt="escritorio dos sonhos">
+                                <img src="banheiros/tumbs/banheiro-10.jpg" alt="banheiros dos sonhos">
                                 <span><img src="../images/lupa.png" alt="lupa"></span>
                             </a>
                             <div class="lb-overlay" id="image-10">
-                                <img src="escritorios/full/escritorio-10.jpg" alt="escritorio dos sonhos" />
+                                <img src="banheiros/full/banheiro-10.jpg" alt="banheiros dos sonhos" />
                                 <div>                           
                                     <a href="#image-9" class="lb-prev">Prev</a>
                                     <a href="#image-11" class="lb-next">Next</a>
                                 </div>
                                 <a href="#page" class="lb-close">x fechar</a>
                             </div>
-                        </li>  
-                                                 <li>
+                        </li>
+                        <li>
                             <a href="#image-11">
-                                <img src="escritorios/tumbs/escritorio-11.jpg" alt="escritorio dos sonhos">
+                                <img src="banheiros/tumbs/banheiro-11.jpg" alt="banheiros dos sonhos">
                                 <span><img src="../images/lupa.png" alt="lupa"></span>
                             </a>
                             <div class="lb-overlay" id="image-11">
-                                <img src="escritorios/full/escritorio-11.jpg" alt="escritorio dos sonhos" />
+                                <img src="banheiros/full/banheiro-11.jpg" alt="banheiros dos sonhos" />
                                 <div>                           
                                     <a href="#image-10" class="lb-prev">Prev</a>
                                     <a href="#image-12" class="lb-next">Next</a>
                                 </div>
                                 <a href="#page" class="lb-close">x fechar</a>
                             </div>
-                        </li> 
-                                                 <li>
+                        </li>
+                        <li>
                             <a href="#image-12">
-                                <img src="escritorios/tumbs/escritorio-12.jpg" alt="escritorio dos sonhos">
+                                <img src="banheiros/tumbs/banheiro-12.jpg" alt="banheiros dos sonhos">
                                 <span><img src="../images/lupa.png" alt="lupa"></span>
                             </a>
                             <div class="lb-overlay" id="image-12">
-                                <img src="escritorios/full/escritorio-12.jpg" alt="escritorio dos sonhos" />
+                                <img src="banheiros/full/banheiro-12.jpg" alt="banheiros dos sonhos" />
                                 <div>                           
                                     <a href="#image-11" class="lb-prev">Prev</a>
                                     <a href="#image-13" class="lb-next">Next</a>
                                 </div>
                                 <a href="#page" class="lb-close">x fechar</a>
                             </div>
-                        </li>  
-                                                 <li>
+                        </li>
+                        <li>
                             <a href="#image-13">
-                                <img src="escritorios/tumbs/escritorio-13.jpg" alt="escritorio dos sonhos">
+                                <img src="banheiros/tumbs/banheiro-13.jpg" alt="banheiros dos sonhos">
                                 <span><img src="../images/lupa.png" alt="lupa"></span>
                             </a>
                             <div class="lb-overlay" id="image-13">
-                                <img src="escritorios/full/escritorio-13.jpg" alt="escritorio dos sonhos" />
+                                <img src="banheiros/full/banheiro-13.jpg" alt="banheiros dos sonhos" />
                                 <div>                           
                                     <a href="#image-12" class="lb-prev">Prev</a>
                                     <a href="#image-14" class="lb-next">Next</a>
                                 </div>
                                 <a href="#page" class="lb-close">x fechar</a>
                             </div>
-                        </li> 
-                                                 <li>
+                        </li>
+                        <li>
                             <a href="#image-14">
-                                <img src="escritorios/tumbs/escritorio-14.jpg" alt="escritorio dos sonhos">
+                                <img src="banheiros/tumbs/banheiro-14.jpg" alt="banheiros dos sonhos">
                                 <span><img src="../images/lupa.png" alt="lupa"></span>
                             </a>
                             <div class="lb-overlay" id="image-14">
-                                <img src="escritorios/full/escritorio-14.jpg" alt="escritorio dos sonhos" />
+                                <img src="banheiros/full/banheiro-14.jpg" alt="banheiros dos sonhos" />
                                 <div>                           
                                     <a href="#image-13" class="lb-prev">Prev</a>
                                     <a href="#image-15" class="lb-next">Next</a>
                                 </div>
                                 <a href="#page" class="lb-close">x fechar</a>
                             </div>
-                        </li>  
-                                                 <li>
+                        </li>
+                        <li>
                             <a href="#image-15">
-                                <img src="escritorios/tumbs/escritorio-15.jpg" alt="escritorio dos sonhos">
+                                <img src="banheiros/tumbs/banheiro-15.jpg" alt="banheiros dos sonhos">
                                 <span><img src="../images/lupa.png" alt="lupa"></span>
                             </a>
                             <div class="lb-overlay" id="image-15">
-                                <img src="escritorios/full/escritorio-15.jpg" alt="escritorio dos sonhos" />
+                                <img src="banheiros/full/banheiro-15.jpg" alt="banheiros dos sonhos" />
                                 <div>                           
                                     <a href="#image-14" class="lb-prev">Prev</a>
                                     <a href="#image-16" class="lb-next">Next</a>
                                 </div>
                                 <a href="#page" class="lb-close">x fechar</a>
                             </div>
-                        </li>
-                                                 <li>
+                        </li> 
+                        <li>
                             <a href="#image-16">
-                                <img src="escritorios/tumbs/escritorio-16.jpg" alt="escritorio dos sonhos">
+                                <img src="banheiros/tumbs/banheiro-16.jpg" alt="banheiros dos sonhos">
                                 <span><img src="../images/lupa.png" alt="lupa"></span>
                             </a>
                             <div class="lb-overlay" id="image-16">
-                                <img src="escritorios/full/escritorio-16.jpg" alt="escritorio dos sonhos" />
+                                <img src="banheiros/full/banheiro-16.jpg" alt="banheiros dos sonhos" />
                                 <div>                           
                                     <a href="#image-15" class="lb-prev">Prev</a>
                                     <a href="#image-1" class="lb-next">Next</a>
                                 </div>
                                 <a href="#page" class="lb-close">x fechar</a>
                             </div>
-                        </li>          
+                        </li>              
                         </ul>
                 </section>
                 </div></div> <!--nossaempresa-->         
-        <footer>
-             <div class="container">   
-                <div class="grid_5">
-                    <h3>Ambientes Personalizados</h3>
-                    <ul class="rectangle-list">
-                        <li><a href='areas-de-lazer.html'>Áreas de lazer</a></li>
-                        <li><a href='dormitorios.html'>Dormitórios</a></li>
-                        <li><a href='cozinhas.html'>Cozinhas</a></li>
-                        <li><a href='salas.html'>Salas</a></li>
-                        <li><a href='escritorios.html'>Escritórios</a></li>
-                        <li><a href='banheiros.html'>Banheiros</a></li>
-
-                    </ul>
-                </div>
-
-                <div class="highlight nophone">
-                    <div class="grid_5">
-                   <div class="fb-like-box" data-href="https://www.facebook.com/marcenariamiqueas" data-width="450" data-height="500" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="true" data-show-border="false"></div>
-                    </div><!--grid5-->
-                </div><!--no-phone-->
-                <div class="grid_8" id="atendimento">
-                    <h3>Atendimento</h3>
-                    <ul class="contato">
-                        <li>Av. Dep. Dante Delmanto, 1895<br>Vila Paulista | Botucatu - SP  <span class="mapa">[ mapa ] </span></li>
-                        <li>14 3815.1602</li>
-                        <li>contato@miqueasmarcenaria.com.br</li>
-                    </ul>
-                </div>
-            </div><!--container-->
-        </footer>            <div class="autor" >
+                <?php require_once "footer.php"?>
+                            <div class="autor" >
                 <p class="insetType">desenvolvimento<a href="http://www.novaeraweb.com.br" target="_blank"><img class="heart pulse2" src="../images/nova-era-web.png" alt="Logo Nova Era Web"></a></p></div>
              </div>
     
@@ -427,8 +352,7 @@
                 // Target your .container, .wrapper, .post, etc.
                 $("#video").fitVids();
               });
-        </script>
-        <script type="text/javascript">
+
             var navigation = responsiveNav("#nav", {customToggle: "#menu"});
         </script>
         <script type="text/javascript" src="js/modernizr.custom.28468.js"></script>

@@ -48,6 +48,17 @@
 
 /**** Tipografia ****/
 
+.whats {
+  position: fixed;
+  bottom: 20px;
+  right:5.5%;
+  z-index:999;
+  }
+
+  .nophone{display: block;}
+  .yesphone{display: none;}
+
+  
 
 
 
@@ -1397,6 +1408,7 @@ body > div {
 @media screen and (max-width: 640px) {
 
   .nophone { display: none; }
+  .yesphone {display: block;}
   header .grid_1 { width: 15%;  }
   header .grid_3 { width: 45%; margin-top: 5%!important;}
   header .grid_6 { width: 100%; margin: 0; }

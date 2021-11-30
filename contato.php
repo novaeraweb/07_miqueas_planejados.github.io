@@ -92,29 +92,7 @@ function checa_formulario(email){
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-    <header>
-            <div class="container">
-                <div class="grid_4">
-                    
-                        <!--[if lte IE 8 ]-->
-                          <a href="index.html"><img class="logo" src="images/logo-marcenaria-miqueas3.png" alt="Logo"></a>
-                        <!--![endif]-->
-                    
-                </div><!--grid3-->             
-                <div class="grid_7">
-                    <nav>
-                        <div class="rmm" id="menu-topo">
-                            <ul>
-                                <li><a href='index.html'>Home</a></li>
-                                <li><a href='marcenaria-miqueas.html'>Empresa</a></li>
-                                <li><a href='ambientes-personalizados.html'>Ambientes</a> </li>
-                                <li><a href='contato.php'>Contato</a></li> 
-                            </ul>
-                        </div>
-                    </nav>
-                </div><!--grid7-->
-            </div><!--container-->  
-    </header> 
+    <?php require_once "header.php"?>
     <div class="form-contato" >
             <article > 
                 <div id="topico">   
@@ -184,35 +162,8 @@ function checa_formulario(email){
            
         </div><!-- container -->   </section>
     </div><!-- form-contato -->
-        <footer>
-             <div class="container">   
-                <div class="grid_5 ambiente">
-                    <h3>Ambientes Personalizados</h3>
-                    <ul class="rectangle-list">
-                        <li><a href='ambientes/areas-de-lazer.html'>Áreas de lazer</a></li>
-                        <li><a href='ambientes/dormitorios.html'>Dormitórios</a></li>
-                        <li><a href='ambientes/cozinhas.html'>Cozinhas</a></li>
-                        <li><a href='ambientes/salas.html'>Salas</a></li>
-                        <li><a href='ambientes/escritorios.html'>Escritórios</a></li>
-                        <li><a href='ambientes/banheiros.html'>Banheiros</a></li>
-                    </ul>
-                </div>
-
-                <div class="highlight nophone">
-                    <div class="grid_5">
-                   <div class="fb-like-box" data-href="https://www.facebook.com/marcenariamiqueas" data-width="450" data-height="500" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="true" data-show-border="false"></div>
-                    </div><!--grid5-->
-                </div><!--no-phone-->
-                <div class="grid_8" id="atendimento">
-                    <h3>Aceitamos</h3>
-                    <ul class="contato3">
-                        <li><img src="images/logo-construcard.jpg"  alt="Construcard"></li>
-                        <li><img src="images/logo-bndes.jpg"  alt="Bndes"></li>
-                        <li><img src="images/logo-aymore.jpg"  alt="Aymore Financiamentos"></li>
-                    </ul>
-                </div>
-            </div><!--container-->
-        </footer>            <div class="autor" >
+    <?php require_once "footer.php"?>    
+    <div class="autor" >
                 <p class="insetType">desenvolvimento<a href="http://www.novaeraweb.com.br" target="_blank"><img class="heart pulse2" src="images/nova-era-web.png" alt="Logo Nova Era Web" ></a></p></div>
             </div>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
