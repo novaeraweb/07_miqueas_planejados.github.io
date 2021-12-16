@@ -118,19 +118,19 @@ function checa_formulario(email){
               name="email">
                     <div class="grid_10">
                       <label class="desc" id="nome" for="nome">Nome</label><br>
-                      <input id="nome" name="nome" type="text"  value=""  tabindex="1">
+                      <input id="nome" name="nome" type="text"  value=""  tabindex="1" required>
                     </div> 
                     <div class="grid_10">
                       <label class="desc" for="email">Email</label><br>
-                      <input id="Field3" name="email" type="email" spellcheck="false" value="" >
+                      <input id="Field3" name="email" type="email" spellcheck="false" value="" required>
                     </div>
                     <div class="grid_10">
                       <label class="desc" id="telefone" for="telefone">Celular</label><br>
-                      <input id="telefone" name="telefone" type="text" value="" onkeypress="MascaraTelefone(form.telefone);" maxlength="15" placeholder="(xx) x.xxxx.xxxx" maxlength="255" tabindex="3"> 
+                      <input id="telefone" name="telefone" type="text" value="" required onkeypress="MascaraTelefone(form.telefone);" maxlength="15" placeholder="(xx) x.xxxx.xxxx" maxlength="255" tabindex="3"> 
                     </div>
                     <div class="grid_10">
                       <label class="desc" id="assunto" for="Assunto">Assunto</label><br>
-                        <select id="select" name="assunto"  tabindex="4"> 
+                        <select id="select" name="assunto"  tabindex="4" required> 
                           <option value="Site | Sem assunto">Selecione</option>
                           <option value="Site | Solicitar visita">Solicitar visita</option>
                           <option value="Site | Quero um projeto 3D">Gostaria de um projeto 3D</option>
