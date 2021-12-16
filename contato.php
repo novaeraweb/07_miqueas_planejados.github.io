@@ -114,7 +114,7 @@ function checa_formulario(email){
         <div class="container">
             <div class="grid_5">            
           
-              <form onsubmit="return checa_formulario(this)" action="phpmailer/envia.php" method="post" enctype="multipart/form-data" 
+              <form onsubmit="return validaCaptcha(); return checa_formulario(this)" action="phpmailer/envia.php" method="post" enctype="multipart/form-data" 
               name="email">
                     <div class="grid_10">
                       <label class="desc" id="nome" for="nome">Nome</label><br>
@@ -146,6 +146,7 @@ function checa_formulario(email){
                       <input name="arquivo" type="file"> 
                     </div>
                     <div>
+                      <div class="g-recaptcha" data-sitekey="6Ld3dqkdAAAAAALYuaFqFQTk5tYg85K5WK2dEGq0"></div>
                       <button id="bt-enviar" name="Submit" type="submit" value="Submit">> Enviar </button>
                     </div>
               </form>
@@ -180,5 +181,14 @@ function checa_formulario(email){
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script src="js/mobile.js"></script> 
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <script src="https://unpkg.com/sweetalert2@7.12.15/dist/sweetalert2.all.js"></script>
+        <script type="text/javascript">
+          function validaCaptcha() {
+          if(document.querySelector('#g-recaptcha-response').value == '') {
+            swal('Valide o reCaptcha!', 'Obrigatório para o envio da mensagem', 'error');return false;
+          }
+        }
+        </script>
     </body>
 </html>
