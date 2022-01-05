@@ -226,3 +226,14 @@ border-bottom-right-radius: 0px;
 }
 
 
+@media only screen and (min-width: 860px){
+	.rmm-main-list{
+		display: flex!important;
+		flex-direction: row;
+	}
+
+	.rmm-main-list li{
+		display: flex!important;
+		flex-direction: row;
+	}
+}
