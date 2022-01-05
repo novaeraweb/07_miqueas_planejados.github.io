@@ -48,10 +48,10 @@ if(isset($recaptcha_response)){
               'allow_self_signed' => true
           )
       );
-      $mail->Username = 'site@miqueasplanejados.com.br'; // Usuário do servidor SMTP
+      $mail->Username = 'contato@miqueasplanejados.com.br'; // Usuário do servidor SMTP
       $mail->Password = 'miq*010203'; // Senha do servidor SMTP
 
-      $address = "site@miqueasplanejados.com.br";
+      $address = "contato@miqueasplanejados.com.br";
       // email do remetente
       $mail->SetFrom($address, "Contato do site");
       // email do destinatario
