@@ -9,3 +9,4 @@
 <img src="images/icon-whatsapp2.svg" alt="Entre em contato via WhatsApp" width="80px">
 </a>
 </div>
+

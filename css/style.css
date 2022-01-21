@@ -503,9 +503,9 @@ footer a.tw { background: url(../images/twitter.png) no-repeat; }
   }
 /**** LIST ****/
 
-.rectangle-list{
+/* .rectangle-list{
   float: right;
-}
+} */
 
 .rectangle-list a{
     position: relative;
