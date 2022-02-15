@@ -616,7 +616,7 @@ display: inline-block;
     transition: all .3s ease-out;               
 }
 
-ul.contato{ float: right;}
+ul.contato{ float: left;}
 ul.contato:last-child{margin-left: -38px;}
 
 .empresa p {
