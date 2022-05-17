@@ -145,9 +145,9 @@ function checa_formulario(email){
                       <label class="desc" id="title4" for="arquivo">Já tem seu projeto ? Envie para nós.</label><br>
                       <input name="arquivo" type="file"> 
                     </div>
-                    <div>
+                    <div class="grid_10">
                       <div class="g-recaptcha" data-sitekey="6Ld3dqkdAAAAAALYuaFqFQTk5tYg85K5WK2dEGq0"></div>
-                      <button id="bt-enviar" name="Submit" type="submit" value="Submit">> Enviar </button>
+                      <button id="bt-enviar" name="Submit" type="submit" value="Submit" style="margin-top: 5%">> Enviar </button>
                     </div>
               </form>
       
