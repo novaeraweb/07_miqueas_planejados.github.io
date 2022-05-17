@@ -91,6 +91,7 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
         <?php require_once "header.php"?>
+        <?php require_once "alerta.php"?>
          
         <div class="highlight nophone">
 

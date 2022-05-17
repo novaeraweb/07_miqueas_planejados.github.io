@@ -39,7 +39,7 @@ if(isset($recaptcha_response)){
       // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
       $mail->IsSMTP(); // Define que a mensagem será SMTP
       $mail->Host = "smtp.umbler.com"; // Endereço do servidor SMTP (caso queira utilizar a autenticação, utilize o host smtp.seudomínio.com.br)
-      $mail->Port       = 587; 
+      $mail->Port = 587; 
       $mail->SMTPAuth = true; // Usar autenticação SMTP (obrigatório para smtp.seudomínio.com.br)
       $mail->SMTPOptions = array(
           'ssl' => array(
@@ -48,16 +48,18 @@ if(isset($recaptcha_response)){
               'allow_self_signed' => true
           )
       );
-      $mail->Username = 'contato@miqueasplanejados.com.br'; // Usuário do servidor SMTP
+      $mail->Username = 'site@miqueasplanejados.com.br'; // Usuário do servidor SMTP
       $mail->Password = 'miq*010203'; // Senha do servidor SMTP
 
       $address = "contato@miqueasplanejados.com.br";
       // email do remetente
       $mail->SetFrom($address, "Contato do site");
+      $mail->From = 'site@miqueasplanejados.com.br'; // Seu e-mail
+      $mail->Sender = 'site@miqueasplanejados.com.br'; // Seu e-mail
       // email do destinatario
 
       $mail->AddAddress($address, "destinatario");
-      $mail->AddBCC("site@novaeraweb.com.br", "destinatario");
+  //   $mail->AddBCC("site@novaeraweb.com.br", "destinatario");
       $mail->AddBCC("contato@novaeraweb.com.br", "destinatario");
       // assunto da mensagem
       // assunto da mensagem
@@ -70,14 +72,14 @@ if(isset($recaptcha_response)){
       if(!$mail->Send()) {
         echo "Erro: " . $mail->ErrorInfo;
         } else {
-        header("Location:http://www.marcenariamiqueas.com.br/cadastro-enviado.html");
+        header("Location:https://www.miqueasplanejados.com.br/index.php?enviado=true");
         }
 
     } 
     // Caso o Captcha não tenha sido validado 
     //retorno uma mensagem de erro. 
     else {
-        header("Location: ../index.php?confirma=true");
+        header("Location: ../index.php?enviado=false");
     }
   }
 ?>
