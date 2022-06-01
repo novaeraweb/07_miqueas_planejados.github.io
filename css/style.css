@@ -84,6 +84,10 @@ pulse
 	margin: 0;
 }
 
+.swal2-styled.swal2-confirm {
+  background-color: #E52022!important;
+}
+
 
 .pulse2 {
 	-webkit-animation: pulse2 3s linear infinite;
